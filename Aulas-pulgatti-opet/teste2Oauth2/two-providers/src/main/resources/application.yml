@@ -1,0 +1,15 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            client-id: your-github-client-id
+            client-secret: your-github-client-secret
+          google:
+            client-id: 398844415401-g0jtbv8rarp00dbf06etp19u5756hf8t.apps.googleusercontent.com
+            client-secret: 8N7Uasq1FkvTecl89uDneFDh
+
+#logging:
+#  level:
+#    org.springframework.security: DEBUG

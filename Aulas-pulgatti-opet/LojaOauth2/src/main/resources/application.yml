@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    password: 
+    url: jdbc:mysql://localhost:3306/salesdb
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: none
+
+  security:
+    oauth2:
+      client:
+        registration:
+         google:
+          clientId: 398844415401-g0jtbv8rarp00dbf06etp19u5756hf8t.apps.googleusercontent.com
+          clientSecret: 8N7Uasq1FkvTecl89uDneFDh
+          scope:
+           - email
+           - profile
