@@ -1,0 +1,42 @@
+import java.util.*;
+
+class FilaDePrioridade {
+
+	// Main
+	public static void main(String args[])
+	{
+		// Cria uma fila de Prioridade Vazia
+		PriorityQueue<Integer> pQueue = new PriorityQueue<Integer>();
+
+		// Adiciona um elemeto a fila utilizando o método add()
+		pQueue.add(10);
+		pQueue.add(20);
+		pQueue.add(15);
+
+		// peek() - recupera mas NÃO remove o primeiro elemeto da fila
+		System.out.println(pQueue.peek());
+
+		// pool() - recupera e REMOVE o primeiro elemeto da fila
+		System.out.println(pQueue.poll());
+
+		// Mostrando que é o novo primeiro elemento da fila (head)
+		System.out.println(pQueue.peek());
+
+		// Cria uma fila de Vazia , não ordenada	
+	    Queue<Integer> q = new LinkedList<>();
+        q.add(10);
+        q.add(20);
+        q.add(15);
+
+     	// peek() - recupera mas NÃO remove o primeiro elemeto da fila
+		System.out.println(q.peek());
+
+		// pool() - recupera e REMOVE o primeiro elemeto da fila
+		System.out.println(q.poll());
+
+		// Mostrando que é o novo primeiro elemento da fila (head)
+		System.out.println(q.peek());
+
+
+	}
+}
